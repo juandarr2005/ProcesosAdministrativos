@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.container-ref{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    gap: 100px; 
+    padding: 20px;
+}
+
+.referencia{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #121212;
+    color: #F8F9FA;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+}
+.container {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.producto {
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    color: #121212;
+    border-radius: 4%;
+}
+.producto img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #121212;
+    color: #f0f0f0 ;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes img {
+    width: 30px;
+    height: auto;
+}
+
+button {
+    background-color: #ff3b3b;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
